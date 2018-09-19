@@ -1,4 +1,3 @@
-
 package catalogo;
 
 import java.awt.Color;
@@ -15,7 +14,7 @@ public class Catalogo extends JFrame implements ActionListener {
         JButton b2=new JButton("Humano");
         JButton b3=new JButton("Orco");
         
-        JLabel Arma=new JLabel("Armo");
+        JLabel Arma=new JLabel("Arma");
         JLabel Montura=new JLabel("Montura");
         JLabel Aspecto=new JLabel("Aspecto");
         JLabel Escudo=new JLabel("Escudo");
@@ -130,7 +129,5 @@ public class Catalogo extends JFrame implements ActionListener {
             img4.setBounds(500,295,130,130);
             img4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/catalogo/"+c3.recibirMontura())));
         }
-        
     }
-    
 }

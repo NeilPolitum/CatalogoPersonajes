@@ -1,6 +1,4 @@
-
 package catalogo;
-
 
 public class EscudoOrco extends EscudoAbstracto{
 
@@ -10,5 +8,4 @@ public class EscudoOrco extends EscudoAbstracto{
         return "escudoOrco.jpg";
 
     }
-    
 }
